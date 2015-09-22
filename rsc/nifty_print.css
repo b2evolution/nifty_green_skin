@@ -1,0 +1,35 @@
+/* 
+ * No nifty corners when printing 
+ */
+.rtop, .rbottom, .artop, .arbottom {
+display: none
+}
+
+/* Browsers don't always get this right, so just enough to make the body print okay */
+body {
+font-family: serif; font-size: 11pt;
+}
+
+.bTitle {
+margin-top: 12px;
+margin-bottom: 6px;
+}
+
+img {
+border: none;
+}
+
+.posts, .bPost {
+float: none;
+margin: 0px;
+padding: 0px;
+width: auto
+}
+
+.bPost {
+margin-bottom: 22px;
+}
+
+.bSideBar, #pageFooter {
+display: none;
+}
